@@ -89,11 +89,15 @@ interest(data_array);
 console.log("nilai genap = "+genap);
 console.log("nilai ganjil = "+ganjil);
 
+
 min_value(ganjil);
 max_value(ganjil);
+
+min_value(genap);
+max_value(genap);
 
 ave_value(ganjil); 
 ave_value(genap); 
 
+sum_value(ganjil);
 sum_value(genap); 
-sum_value(ganjil); 
