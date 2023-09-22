@@ -1,9 +1,3 @@
-
-let pnilai = 100;
-var data_array = [];
-var genap = [];
-var ganjil = [];
-
 // fungsi untuk membuat nilai random array dengan panjang index 100
 function nilaiRandom(pnilai) {
     for (let a = 0; a <pnilai; a++) {
@@ -80,6 +74,11 @@ function sum_value(nilai) {
     data /= nilai.length
     console.log(data);
 }
+
+let pnilai = 100;
+var data_array = [];
+var genap = [];
+var ganjil = [];
 
 
 nilaiRandom(pnilai);
